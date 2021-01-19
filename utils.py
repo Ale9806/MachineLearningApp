@@ -99,3 +99,4 @@ def run_training(classifier,X,y):
     st.write("Accuracy",acc)
    
     plot(X_test,y_test,y_predict,"Original",f"Predictions with accuracy {round(acc,2)}")
+    return 0 
